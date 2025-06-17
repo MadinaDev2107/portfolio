@@ -761,6 +761,44 @@ body {
   background: #f0a500;
   color: white;
 }
+.custom-footer{
+  display: none;
+}
+
+.custom-footer {
+  width: 100%;
+  border-top: 1px gold solid;
+  background-color: #1a1a1a; /* Bootstrap dark */
+  color: white;
+  padding: 20px 0;
+  margin-top: 50px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-text {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-link {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #f0a500; 
+}
 
 /* Mobile versiya */
 @media (max-width: 900px) {
@@ -776,6 +814,15 @@ body {
 
   .pages {
     margin-left: 0;
+  }
+  .social-icons {
+  margin-top: 100px;
+}
+  .custom-footer {
+    margin-top: 100px;
+    gap: 30px;
+    display: flex;
+    height: 150px;
   }
 
   .bottom-nav {
@@ -828,6 +875,11 @@ body {
     height: 200px;
   }
 }
+
+
+
+
+
 
 /* FAQAT KATTA EKRANLAR (769px dan katta) */
 @media (min-width: 820px) {

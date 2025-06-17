@@ -26,6 +26,7 @@ import {
 } from "react-icons/si";
 import BottomNav from "./BottomNav";
 import { icons, navigationLinks, projects, socialLinks } from "./Information";
+import Footer from "./Footer";
 
 const App = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -430,6 +431,7 @@ const App = () => {
               Send Message
             </button>
           </form>
+          <Footer />
         </section>
       </div>
     </div>
