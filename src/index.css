@@ -816,10 +816,10 @@ body {
     margin-left: 0;
   }
   .social-icons {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .footer-text {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .custom-footer {
     margin-top: 100px;
@@ -896,6 +896,18 @@ body {
   .bottom-nav {
     gap: 20px;
     padding: 8px 20px;
+  }
+    .social-icons {
+    margin-top: 70px;
+  }
+  .footer-text {
+    margin-bottom: 50px;
+  }
+  .custom-footer {
+    margin-top: 100px;
+    gap: 30px;
+    display: flex;
+    height: 150px;
   }
 
   .bottom-nav__item {
