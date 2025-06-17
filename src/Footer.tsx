@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
       <div className="container text-center">
         <p className="footer-text">
-          © 2025 Muzaffarovna Madina. All rights reserved.
+          All rights reserved.
         </p>
       </div>
     </footer>
