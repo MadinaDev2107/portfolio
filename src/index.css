@@ -761,7 +761,7 @@ body {
   background: #f0a500;
   color: white;
 }
-.custom-footer{
+.custom-footer {
   display: none;
 }
 
@@ -797,7 +797,7 @@ body {
 }
 
 .social-link:hover {
-  color: #f0a500; 
+  color: #f0a500;
 }
 
 /* Mobile versiya */
@@ -816,8 +816,11 @@ body {
     margin-left: 0;
   }
   .social-icons {
-  margin-top: 100px;
-}
+    margin-top: 100px;
+  }
+  .footer-text {
+    margin-bottom: 50px;
+  }
   .custom-footer {
     margin-top: 100px;
     gap: 30px;
@@ -875,11 +878,6 @@ body {
     height: 200px;
   }
 }
-
-
-
-
-
 
 /* FAQAT KATTA EKRANLAR (769px dan katta) */
 @media (min-width: 820px) {
