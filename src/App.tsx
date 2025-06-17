@@ -325,7 +325,6 @@ const App = () => {
         </section>
         <section id="skills" className="skills-icons-section skills page">
           <h2 className="skills-icons-title">Skills</h2>
-
           <div className="icons-wrapper">
             {skills.map((skill) => (
               <div key={skill.id} className={`icon-item ${skill.id}`}>
