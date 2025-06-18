@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import Logo from "./images/logo.jpg";
+import Logos from "./images/photo.jpg"
 
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -184,7 +184,7 @@ const App = () => {
           <img
             style={{ borderRadius: "50%" }}
             width={100}
-            src={Logo}
+            src={Logos}
             alt="Logo"
             className="Logo"
           />
@@ -268,7 +268,6 @@ const App = () => {
                 </motion.div>
 
                 <div>
-                  {" "}
                   <div className="about_me">
                     <div className="about-me-text">
                       <p>
@@ -293,7 +292,7 @@ const App = () => {
                     </div>
                     <div className="about-image">
                       <img
-                        src={Logo}
+                        src={Logos}
                         alt="Profile"
                         className="img-fluid rounded"
                       />
